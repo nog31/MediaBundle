@@ -12,7 +12,7 @@
 namespace Apoutchika\MediaBundle\Filesystem;
 
 use Gaufrette\Filesystem;
-use Gaufrette\Adapter\Local as FtpAdapter;
+use Gaufrette\Adapter\Ftp as FtpAdapter;
 
 /**
  * Ftp adapter for filesystem.
